@@ -43,7 +43,7 @@ img{
     color: var(--heading-font-color);
 }
 .h2-text{
-    color: var(--secondary-font-color);
+    color: var(--heading-font-color);
     font-size: var(--heading-h2-font-size);
 }
 .h3-text{
@@ -134,7 +134,7 @@ img{
 .header-con-img-col img{
     width: 100%;
 }
-.header-p-text-marin{
+.p-text-marin{
     margin: 30px 0;
 }
 .archi-text-color{
@@ -142,8 +142,36 @@ img{
 }
 /*--- header ---css ---- style ---- end */
 
-/*--- ---css ---- style ---- start */
-/*--- ---css ---- style ---- end */
+/*--- Main --- section ---- style ---- start */
+/*--- teams ---css ---- style ---- start */
+#teams-section{
+    padding: 50px 0;
+}
+.teams-container-row{
+    display: flex;
+}
+.teams-col-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding: 40px;
+}
+.teams-col-img img{
+    /* width: 100%; */
+}
+.teams-text-col{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.teams-h2-text-one{
+    color: var(--p-font-color);
+    font-weight: 400;
+}
+.teams-h2-text-two{
+    color: var(--secondary-color);
+}
+/*--- teams ---css ---- style ---- end */
 
 /*--- ---css ---- style ---- start */
 /*--- ---css ---- style ---- end */
