@@ -222,11 +222,43 @@ img{
 /*--- Experience ---css ---- style ---- end */
 
 /*---  Facts ---css ---- style ---- start */
-
+#facts-section{
+    padding: 2rem 0 3rem 0;
+}
+.facts-p-text{
+    max-width: 40%;
+    margin: 1.3rem 0;
+}
+.facts-box-col{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 2rem 0;
+}
+.facts-container-box-col{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
+    margin: 4rem 0;
+}
+.facts-box-col{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.facts-h3-margin{
+    margin: .4rem;
+}
+.facts-container-box-row{
+    max-width: 95%;
+    margin: 0 auto;
+}
 /*---  Facts ---css ---- style ---- end */
 
-/*--- ---css ---- style ---- start */
-/*--- ---css ---- style ---- end */
+/*--- sponspors ---css ---- style ---- start */
+#sponspors-section{
+    padding: 2rem 0 4rem 0;
+}
+/*--- sponspors ---css ---- style ---- end */
 
 /*--- ---css ---- style ---- start */
 /*--- ---css ---- style ---- end */
