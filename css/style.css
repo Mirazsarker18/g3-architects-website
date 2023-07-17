@@ -70,12 +70,6 @@ img{
     border-radius: 5px;
     border: none;
 }
-.btn-medium{
-
-}
-.btn-large{
-
-}
 /*--- project style guidelines ---- style ---- end */
 
 /*--- nav ---css ---- style ---- start */
@@ -86,8 +80,8 @@ img{
     height: 70px;
 }
 .nav-container-col{
-    display: grid;
-    grid-template-columns: 2fr 10fr;
+    display: flex;
+    justify-content: space-between;
 }
 .nav-logo{
     max-width: 200px;
@@ -96,14 +90,9 @@ img{
     width: 100%;
     margin-top: 15px;
 }
-/* .nav-menu-text {
-    display: flex;
-    justify-content: space-around;
-    
-} */
 .nav-menu-text ul{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     line-height: 70px;
     gap: 70px;
    
@@ -156,9 +145,7 @@ img{
     grid-gap: 15px;
     padding: 40px;
 }
-.teams-col-img img{
-    /* width: 100%; */
-}
+
 .teams-text-col{
     display: flex;
     align-items: center;
@@ -258,10 +245,35 @@ img{
 #sponspors-section{
     padding: 2rem 0 4rem 0;
 }
+.sponspors-container-col{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.sponspors-container-logo-col{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
 /*--- sponspors ---css ---- style ---- end */
 
-/*--- ---css ---- style ---- start */
-/*--- ---css ---- style ---- end */
+/*--- footer ---css ---- style ---- start */
+.footer-row{
+    padding: 1.1rem .5rem;
+    background: var(--primary-color);
+    border-radius: .2rem;
+    margin-bottom: 10px;
+}
+.footer-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+/*--- footer ---css ---- style ---- end */
 
 /*--- ---css ---- style ---- start */
 /*--- ---css ---- style ---- end */
