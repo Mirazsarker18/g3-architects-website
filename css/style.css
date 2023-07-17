@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*--- ---common ---- css ---- style ---- end */
+/*--- custom css ---- style ---- start */
+:root{
+    --primary-color: rgba(255, 144, 14, 0.10);
+    --secondary-color: #FF900E;
+    --secondary-font-color: #424242;
+    --heading-font-color: #131313;
+    --white-text-color: #ffffff;
+    --p-font-color: #727272;
+    --hover-color: #FF900E;
+    --heading-h1-font-size: 4rem;
+    --heading-h2-font-size: 3rem;
+    --heading-h3-font-size: 2rem;
+    --heading-h4-font-size: 1.3rem;
+    --heading-h5-font-size: 1.1rem;
+    --p-font-size: 1rem;
+}
+/*--- custom css ---- style ---- end */
+/*--- project style guidelines ---- style ---- start */
+.h1-text{
+    font-size: var(--heading-h1-font-size);
+    color: var(--heading-font-color);
+}
+.h2-text{
+    color: var(--secondary-font-color);
+    font-size: var(--heading-h2-font-size);
+}
+.h3-text{
+    color: var(--secondary-font-color);
+    font-size: var(--heading-h3-font-size);
+}
+.h4-text{
+    font-size: var(--heading-h4-font-size);
+}
+.h5-text{
+    font-size: var(--heading-h5-font-size);
+    color: var(--white-text-color);
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+.p-text{
+    font-size: var(--p-font-size);
+    color: var(--p-font-color);
+    line-height: 1.6rem;
+}
+.btn-small{
+    padding: 20px 35px;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+}
+.btn-medium{
+
+}
+.btn-large{
+
+}
+/*--- project style guidelines ---- style ---- end */
+
+/*--- nav ---css ---- style ---- start */
+#header-bg{
+    background: var(--primary-color);
+}
+.nav-container-row{
+    height: 70px;
+}
+.nav-container-col{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.nav-logo{
+    max-width: 200px;
+}
+.nav-logo img{
+    width: 100%;
+    margin-top: 15px;
+}
+/* .nav-menu-text {
+    display: flex;
+    justify-content: space-around;
+    
+} */
+.nav-menu-text ul{
+    display: flex;
+    justify-content: end;
+    line-height: 70px;
+    gap: 70px;
+   
+}
+
+.nav-menu-text ul li a{
+    color: var(--secondary-font-color);
+    font-size: var(--heading-h5-font-size);
+}
+.nav-menu-text ul li a:hover{
+    color: var(--hover-color);
+}
+/*--- nav ---css ---- style ---- end */
+
+/*--- header ---css ---- style ---- start */
+#header-section{
+    padding: 0 0 50px 0;
+    margin-top: 70px;
+}
+.header-text-col{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-con-img-col {
+    margin-top: 50px;
+}
+.header-con-img-col img{
+    width: 100%;
+}
+.header-p-text-marin{
+    margin: 30px 0;
+}
+.archi-text-color{
+    color: var(--secondary-color);
+}
+/*--- header ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
+
+/*--- ---css ---- style ---- start */
+/*--- ---css ---- style ---- end */
